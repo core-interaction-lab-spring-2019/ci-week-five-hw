@@ -17,4 +17,5 @@ Instructions:
 	- Site Title
 	- Text
 	- Card
-- Use the SASS command `sass --watch style.scss:build/style.css` to compile your CSS
+- Use the SASS command `sass style.scss:build/style.css` to compile your CSS
+- You can also use `sass --watch style.scss:build/style.css` to continuously compile your CSS while you work
