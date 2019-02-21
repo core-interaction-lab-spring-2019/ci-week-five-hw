@@ -5,6 +5,7 @@ Restructure the CSS files into SCSS files.
 Instructions:
 
 - Clone the repository
+- Create your own branch
 - Create style.scss file
 - Create a `/stylesheets` directory
 - Create a `/build` directory
