@@ -1,0 +1,145 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  --color-one: #000000;
+  --color-two: #F5ECCD;
+  --color-three: #FFFFFF;
+  --color-four: rgba(0,0,0,.75);
+  --title-font: "Staatliches", cursive;
+  --copy-font: "Ubuntu", sans-serif;
+  --spacing: 15px;
+}
+
+body {
+  font-family: var(--copy-font);
+  font-size: 10px;
+  background-color: var(--color-two);
+}
+
+.site-title {
+  display: inline-block;
+  padding: var(--spacing);
+  background-color: var(--color-three);
+  border: 5px solid var(--color-one);
+  font-family: var(--title-font);
+  color: var(--color-one);
+  font-size: 4.8em;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin: var(--spacing) 0;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+  max-width: 1280px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+@media (max-width: 915px) {
+  .card-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+header {
+  text-align: center;
+}
+
+.card {
+  width: 300px;
+  margin: 20px;
+  background-color: var(--color-three);
+  box-shadow: 0px 0px 10px 0px var(--color-four);
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  overflow: hidden;
+  border-radius: var(--spacing);
+}
+.card:hover {
+  box-shadow: 0px 0px 25px 0px var(--color-four);
+  transform: translateY(-1px);
+}
+@media (max-width: 915px) {
+  .card {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+}
+.card_title {
+  font-family: var(--title-font);
+  color: var(--color-one);
+  font-size: 3.2em;
+  margin: var(--spacing) 0;
+  text-align: center;
+}
+.card__summary {
+  font-family: var(--copy-font);
+  font-size: 1.6em;
+  line-height: 1.4;
+  color: var(--color-one);
+  padding: 0 var(--spacing) var(--spacing);
+  text-align: center;
+}
+.card__image {
+  width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
