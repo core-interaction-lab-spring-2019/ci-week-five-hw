@@ -1,4 +1,4 @@
-:root {
+/* :root {
 	--color-one: #000000;
 	--color-two: #F5ECCD;
 	--color-three: #FFFFFF;
@@ -6,24 +6,24 @@
 	--title-font: "Staatliches", cursive;
 	--copy-font: "Ubuntu", sans-serif;
 	--spacing: 15px;
-}
+} */
 
-body {
+/* body {
 	font-family: var(--copy-font);
 	font-size: 10px;
 	background-color: var(--color-two);
-}
+} */
 
-img {
+/* img {
 	width: 100%;
 	height: auto;
-}
+} */
 
-header {
+/* header {
 	text-align: center;
-}
+} */
 
-.site-title {
+/* .site-title {
 	display: inline-block;
 	padding: var(--spacing);
 	background-color: var(--color-three);
@@ -34,9 +34,9 @@ header {
 	letter-spacing: .1em;
 	text-align: center;
 	margin: var(--spacing) 0;
-}
+} */
 
-.card-container {
+/* .card-container {
 	display: flex;
 	justify-content: space-evenly;
 	margin-top: 80px;
@@ -45,9 +45,9 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 	flex-wrap: wrap;
-}
+} */
 
-.card {
+/* .card {
 	width: 300px;
 	margin: 20px;
 	background-color: var(--color-three);
@@ -77,4 +77,4 @@ header {
 	color: var(--color-one);
 	padding: 0 var(--spacing) var(--spacing);
 	text-align: center;
-}
+} */
